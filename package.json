@@ -6,16 +6,11 @@
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
-    "ghpages": "ghpages",
-    "push": "git add index.html & git commit & git push origin master"
+    "ghpages": "ghpages"
   },
   "devDependencies": {
     "budo": "^7.0.0",
     "ghpages": "0.0.3"
-  },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/akbarsyamisid/aframe-boilerplate.git"
   },
   "keywords": [
     "aframe",
